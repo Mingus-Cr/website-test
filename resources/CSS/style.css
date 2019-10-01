@@ -1,0 +1,145 @@
+html{
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+h2, h3, h4, p{
+    margin: 0;
+    text-align: center;
+}
+
+/* Header section */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 100%;
+}
+
+header .content img {
+    height: 50px;
+    width: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    text-decoration: underline;
+    padding: 10px;
+}
+ a {
+     color: inherit;
+ }
+
+/* banner section */
+
+.banner{
+    position: relative;
+    top: 70px;
+    background-image: url('../images/img-mission-background.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+}
+
+.banner .mission{
+    background-color: black;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    padding: 10px;
+}
+
+
+/* Tea of the month section */
+
+#tea-month{
+    width: 1000px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+#tea-month h2{
+    margin: 20px 0;
+}
+
+#tea-month h4{
+    margin: 10px 0;
+}
+
+#tea-month .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-squares{
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    
+}
+
+.image-squares img{
+    width: 100%;
+    height: auto;
+}
+
+/* Locationns section */
+
+#locations{
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    position: relative;
+    top: 140px;
+}
+
+#locations h2{
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+#locations .content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+
+.text-squares{
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    text-align: center;
+}
+
+.text-squares h3,
+.text-squares p{
+    margin: 30px 10px;
+}
